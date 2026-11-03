@@ -1,4 +1,3 @@
-
 # Phishing URL Awareness Checker
 
 ## 1. Project Overview
@@ -27,14 +26,15 @@ Additional features:
 - Allows users to check multiple URLs using a continuous loop.
 - Supports a quit command to exit the application.
 - Handles malformed URL input without crashing.
+- Provides readable and organized output.
 
 ## 3. Technologies and Requirements
 
 - Programming Language: Python 3.10 or above
-- Editor: Visual Studio Code
+- Code Editor: Visual Studio Code
 - Python Libraries:
-  - `re` (regular expressions)
-  - `urllib.parse` (URL parsing)
+  - `re` – Regular expressions
+  - `urllib.parse` – URL parsing
 
 All libraries used are included with Python. No additional packages or API keys are required.
 
@@ -102,14 +102,14 @@ The application also displays explanations and a security summary.
 
 The application was tested using all five sample URLs provided in the EWB project workbook. An additional malformed URL test was also performed.
 
-| Test | Description | Result |
-|---|---|---|
-| 1 | Normal-looking HTTPS URL | PASS |
-| 2 | URL containing an IP address and HTTP | PASS |
-| 3 | URL containing an @ symbol and HTTP | PASS |
-| 4 | URL containing multiple hostname segments | PASS |
-| 5 | URL containing a punycode marker | PASS |
-| 6 | Malformed URL input | PASS |
+| Test | Description                               | Result |
+| ---- | ----------------------------------------- | ------ |
+| 1    | Normal-looking HTTPS URL                  | PASS   |
+| 2    | URL containing an IP address and HTTP     | PASS   |
+| 3    | URL containing an @ symbol and HTTP       | PASS   |
+| 4    | URL containing multiple hostname segments | PASS   |
+| 5    | URL containing a punycode marker          | PASS   |
+| 6    | Malformed URL input                       | PASS   |
 
 Detailed test inputs and results are documented in `tests/test_samples.md`.
 
@@ -118,7 +118,7 @@ Detailed test inputs and results are documented in `tests/test_samples.md`.
 The following screenshots provide evidence of the application execution and testing:
 
 - `screenshots/sample_run.png` – Example program execution and warning output.
-- `screenshots/test_results.png` – Evidence of the five workbook sample tests.
+- `screenshots/test_results1.png` – Evidence of the five workbook sample tests.
 
 ## 9. Improvements Implemented
 
@@ -154,8 +154,8 @@ Users should verify unexpected links through trusted, independent sources rather
 
 ## 12. Author
 
-Name: Sakshi Prabhakar Patil 
+**Name:** Sakshi Prabhakar Patil
 
-Project: Phishing URL Awareness Checker
+**Project:** Phishing URL Awareness Checker
 
-Internship: EWB Cybersecurity Internship
+**Internship:** EWB Cybersecurity Internship
